@@ -34,8 +34,8 @@ app.get("*", function (req, res) {
 
 var config = require("./client/config");
 
-app.listen(port, function () {
-    console.log("Server started at http://localhost:" + port);
+app.listen(port, "ui", function () {
+    console.log("Server started at http://ui:" + port);
     console.log("JAlgoArena API Server connected: " + config.jalgoarenaApiUrl);
 });
 

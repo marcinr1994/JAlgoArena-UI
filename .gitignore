@@ -5,3 +5,4 @@ public
 dist/*.zip
 coverage/
 *.iml
+package-lock.json
